@@ -33,6 +33,11 @@ img {
   display: block;
 }
 
+.section-padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* none */
 .list {
   list-style: none;
@@ -130,6 +135,19 @@ img {
   padding-bottom: 32px;
 }
 
+.icon-meseg {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
@@ -149,6 +167,18 @@ img {
 
 .center {
   text-align: center;
+}
+
+.overlay {
+  width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      rgba(50, 60, 165, 0.4),
+      rgba(50, 60, 165, 0.4)
+    ),
+    url(../img/hero-optimiz.jpg);
 }
 
 .main-title {
@@ -171,8 +201,6 @@ img {
   padding: 10px 30px;
   min-width: 200px;
   height: 50px;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px; */
 }
 
 .main-btn:hover,
@@ -188,11 +216,6 @@ img {
   display: none;
 }
 
-.section-padding {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .about-list {
   display: flex;
   justify-content: center;
@@ -200,6 +223,18 @@ img {
 
 .about-list-item {
   width: 270px;
+}
+
+.icon-about-list {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.icon-about-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-list-item:not(:last-child) {
@@ -276,6 +311,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .tiem-item {
@@ -294,6 +330,99 @@ img {
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.icon-team {
+  fill: #afb1b8;
+}
+
+.tiam-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tiam-social-link:hover svg,
+.tiam-social-link:focus svg {
+  fill: var(--white-color);
+}
+
+.tiam-social-link:hover,
+.tiam-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.list-team-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.item-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* clients */
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linc-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.linc-clients:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.linc-clients:hover svg {
+  fill: var(--accent-color);
+}
+
+.icon-clients {
+  fill: #afb1b8;
+}
+
+.yago {
+  width: 44px;
+  height: 49px;
+}
+
+.here {
+  width: 40px;
+  height: 52px;
+}
+
+.compani {
+  width: 41px;
+  height: 42px;
+}
+
+.foster {
+  width: 79px;
+  height: 42px;
+}
+
+.brand {
+  width: 59px;
+  height: 47px;
+}
+
+.tagline {
+  width: 88px;
+  height: 45px;
 }
 
 /* footer */
