@@ -127,6 +127,7 @@ img {
   display: flex;
   margin-left: auto;
   align-items: baseline;
+  align-items: center;
 }
 
 .list-contacts .contacts-list-item + .contacts-list-item {
@@ -175,8 +176,8 @@ img {
 
 .center {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto;
+  width: 1200px;
 }
 
 .overlay {
@@ -184,6 +185,9 @@ img {
   min-height: 600px;
   margin-right: auto;
   margin-left: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: linear-gradient(
       var(--background-overley),
       var(--background-overley)
@@ -554,6 +558,12 @@ img {
   text-decoration: none;
   border: none;
   border-radius: 4px;
+}
+
+.item-botton:hover,
+.item-botton:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .active {
