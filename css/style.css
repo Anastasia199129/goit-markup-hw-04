@@ -373,8 +373,8 @@ img {
   fill: var(--white-color);
 }
 
-.item-icon:hover,
-.item-icon:focus {
+.tiam-social-link:hover,
+.tiam-social-link:focus {
   background-color: var(--accent-color);
 }
 
